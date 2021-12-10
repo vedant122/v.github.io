@@ -1,0 +1,98 @@
+.img {
+    margin-top: 5vw;
+    margin-left: 12vw;
+    width: 50vw;
+    margin-bottom: 40px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
+
+.dis {
+    position: absolute;
+    margin-top: -100px;
+    background-color: rgb(0, 0, 0);
+    margin-left: 2.5vw;
+    color: aliceblue;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Lora', serif;
+    width: 45vw;
+    animation-name: mov;
+    animation-duration: 10s;
+    animation-iteration-count: 1;
+}
+
+@keyframes mov {
+    0% {
+        margin-left: 70vw;
+    }
+
+    10% {
+        margin-left: 2.5vw;
+    }
+
+    90% {
+        margin-left: 2.5vw;
+    }
+
+    100% {
+        margin-left: 2.5vw;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Karantina&family=Readex+Pro&display=swap');
+
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 50px;
+    width: 70vw;
+    margin-bottom: -50px;
+    margin-left: 100px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+
+.title1 {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    font-family: 'Readex Pro', sans-serif;
+}
+
+.b1 {
+    margin-top: 2000px;
+}
+
+@media screen and (max-width:800px) {
+    .img {
+        margin-left: -3vw;
+    }
+
+    .title {
+        font-size: 17px;
+        font-weight: 600;
+        margin-top: 50px;
+        width: 100vw;
+        margin-bottom: -5px;
+        margin-left: 0px;
+        font-family: 'Readex Pro', sans-serif;
+    }
+
+    .title1 {
+        font-size: 15px;
+    }
+
+    .dis {
+        margin-top: -50px !important;
+        width: 95vw;
+        margin-left: 10px !important;
+        margin-top: -80px;
+        font-size: 10px;
+    }
+
+    .b {
+        margin-top: 10px;
+    }
+}
